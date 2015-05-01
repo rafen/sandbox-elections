@@ -1,0 +1,1855 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.0
+3 info using node@v0.10.33
+4 warn package.json elections@ No description
+5 warn package.json elections@ No repository field.
+6 warn package.json elections@ No README data
+7 verbose install where, deps [ '/Users/rafen/projects/sandbox-elections',
+7 verbose install   [ 'apache-server-configs',
+7 verbose install     'grunt',
+7 verbose install     'grunt-autoprefixer',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-coffee',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-connect',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-mocha',
+7 verbose install     'grunt-newer',
+7 verbose install     'grunt-rev',
+7 verbose install     'grunt-sass',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'grunt-usemin',
+7 verbose install     'grunt-wiredep',
+7 verbose install     'jshint-stylish',
+7 verbose install     'load-grunt-tasks',
+7 verbose install     'time-grunt' ] ]
+8 verbose install where, peers [ '/Users/rafen/projects/sandbox-elections', [] ]
+9 info preinstall elections@
+10 verbose already installed skipping grunt@^0.4.5 /Users/rafen/projects/sandbox-elections
+11 verbose already installed skipping grunt-autoprefixer@^1.0.0 /Users/rafen/projects/sandbox-elections
+12 verbose already installed skipping grunt-concurrent@^0.5.0 /Users/rafen/projects/sandbox-elections
+13 verbose already installed skipping grunt-contrib-clean@^0.6.0 /Users/rafen/projects/sandbox-elections
+14 silly cache add args [ 'grunt-contrib-coffee@^0.11.0', null ]
+15 verbose cache add spec grunt-contrib-coffee@^0.11.0
+16 silly cache add parsed spec { raw: 'grunt-contrib-coffee@^0.11.0',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'grunt-contrib-coffee',
+16 silly cache add   rawSpec: '^0.11.0',
+16 silly cache add   spec: '>=0.11.0 <0.12.0',
+16 silly cache add   type: 'range' }
+17 verbose addNamed grunt-contrib-coffee@>=0.11.0 <0.12.0
+18 silly addNamed semver.valid null
+19 silly addNamed semver.validRange >=0.11.0 <0.12.0
+20 silly addNameRange { name: 'grunt-contrib-coffee',
+20 silly addNameRange   range: '>=0.11.0 <0.12.0',
+20 silly addNameRange   hasData: false }
+21 silly mapToRegistry name grunt-contrib-coffee
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-coffee
+25 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-coffee not in flight; fetching
+26 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/rafen/projects/sandbox-elections
+27 verbose already installed skipping grunt-contrib-connect@^0.8.0 /Users/rafen/projects/sandbox-elections
+28 verbose already installed skipping grunt-contrib-copy@^0.5.0 /Users/rafen/projects/sandbox-elections
+29 verbose already installed skipping grunt-contrib-cssmin@^0.10.0 /Users/rafen/projects/sandbox-elections
+30 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 /Users/rafen/projects/sandbox-elections
+31 verbose already installed skipping grunt-contrib-imagemin@^0.8.0 /Users/rafen/projects/sandbox-elections
+32 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /Users/rafen/projects/sandbox-elections
+33 verbose already installed skipping grunt-contrib-uglify@^0.5.1 /Users/rafen/projects/sandbox-elections
+34 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/rafen/projects/sandbox-elections
+35 verbose already installed skipping grunt-mocha@^0.4.10 /Users/rafen/projects/sandbox-elections
+36 verbose already installed skipping grunt-newer@^0.7.0 /Users/rafen/projects/sandbox-elections
+37 verbose already installed skipping grunt-rev@^0.1.0 /Users/rafen/projects/sandbox-elections
+38 verbose already installed skipping grunt-sass@^0.14.0 /Users/rafen/projects/sandbox-elections
+39 verbose already installed skipping grunt-svgmin@^0.4.0 /Users/rafen/projects/sandbox-elections
+40 verbose already installed skipping grunt-usemin@^2.3.0 /Users/rafen/projects/sandbox-elections
+41 verbose already installed skipping grunt-wiredep@^1.7.0 /Users/rafen/projects/sandbox-elections
+42 verbose already installed skipping jshint-stylish@^0.4.0 /Users/rafen/projects/sandbox-elections
+43 verbose already installed skipping load-grunt-tasks@^0.4.0 /Users/rafen/projects/sandbox-elections
+44 verbose already installed skipping time-grunt@^0.4.0 /Users/rafen/projects/sandbox-elections
+45 verbose already installed skipping apache-server-configs@^2.7.1 /Users/rafen/projects/sandbox-elections
+46 verbose request uri https://registry.npmjs.org/grunt-contrib-coffee
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 00:11:57
+49 verbose request id eec7ee94a0db87d0
+50 verbose etag "40YR24RKJQUZ47YRPDF15S0FI"
+51 http request GET https://registry.npmjs.org/grunt-contrib-coffee
+52 http 200 https://registry.npmjs.org/grunt-contrib-coffee
+53 silly get cb [ 200,
+53 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 silly get     etag: '"675PIC8E5G4HL0OGICQ7TYBNL"',
+53 silly get     'content-type': 'application/json',
+53 silly get     'cache-control': 'max-age=60',
+53 silly get     'content-length': '52557',
+53 silly get     'accept-ranges': 'bytes',
+53 silly get     date: 'Fri, 01 May 2015 03:11:58 GMT',
+53 silly get     via: '1.1 varnish',
+53 silly get     age: '0',
+53 silly get     connection: 'keep-alive',
+53 silly get     'x-served-by': 'cache-jfk1022-JFK',
+53 silly get     'x-cache': 'HIT',
+53 silly get     'x-cache-hits': '1',
+53 silly get     'x-timer': 'S1430449918.922472,VS0,VE19',
+53 silly get     vary: 'Accept' } ]
+54 verbose get saving grunt-contrib-coffee to /Users/rafen/.npm/registry.npmjs.org/grunt-contrib-coffee/.cache.json
+55 silly addNameRange number 2 { name: 'grunt-contrib-coffee',
+55 silly addNameRange   range: '>=0.11.0 <0.12.0',
+55 silly addNameRange   hasData: true }
+56 silly addNameRange versions [ 'grunt-contrib-coffee',
+56 silly addNameRange   [ '0.2.0',
+56 silly addNameRange     '0.3.0',
+56 silly addNameRange     '0.3.1',
+56 silly addNameRange     '0.3.2',
+56 silly addNameRange     '0.4.0',
+56 silly addNameRange     '0.5.0',
+56 silly addNameRange     '0.6.0',
+56 silly addNameRange     '0.6.1',
+56 silly addNameRange     '0.6.2',
+56 silly addNameRange     '0.6.3',
+56 silly addNameRange     '0.6.4',
+56 silly addNameRange     '0.6.5',
+56 silly addNameRange     '0.6.6',
+56 silly addNameRange     '0.6.7',
+56 silly addNameRange     '0.7.0',
+56 silly addNameRange     '0.8.0',
+56 silly addNameRange     '0.8.2',
+56 silly addNameRange     '0.9.0',
+56 silly addNameRange     '0.10.0',
+56 silly addNameRange     '0.4.0-rc7',
+56 silly addNameRange     '0.10.1',
+56 silly addNameRange     '0.11.0',
+56 silly addNameRange     '0.11.1',
+56 silly addNameRange     '0.12.0',
+56 silly addNameRange     '0.13.0' ] ]
+57 verbose addNamed grunt-contrib-coffee@0.11.1
+58 silly addNamed semver.valid 0.11.1
+59 silly addNamed semver.validRange 0.11.1
+60 silly cache afterAdd grunt-contrib-coffee@0.11.1
+61 verbose afterAdd /Users/rafen/.npm/grunt-contrib-coffee/0.11.1/package/package.json not in flight; writing
+62 verbose afterAdd /Users/rafen/.npm/grunt-contrib-coffee/0.11.1/package/package.json written
+63 silly install resolved [ { name: 'grunt-contrib-coffee',
+63 silly install resolved     description: 'Compile CoffeeScript files to JavaScript.',
+63 silly install resolved     version: '0.11.1',
+63 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-coffee',
+63 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-coffee.git' },
+63 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-coffee/issues' },
+63 silly install resolved     licenses: [ [Object] ],
+63 silly install resolved     engines: { node: '>= 0.8.0' },
+63 silly install resolved     scripts: { test: 'grunt test' },
+63 silly install resolved     dependencies: { 'coffee-script': '~1.7.0', chalk: '~0.5.0', lodash: '~2.4.1' },
+63 silly install resolved     devDependencies:
+63 silly install resolved      { 'grunt-contrib-jshint': '~0.10.0',
+63 silly install resolved        'grunt-contrib-nodeunit': '~0.4.1',
+63 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+63 silly install resolved        'grunt-contrib-internal': '~0.4.6',
+63 silly install resolved        grunt: '~0.4.1' },
+63 silly install resolved     peerDependencies: { grunt: '~0.4.0' },
+63 silly install resolved     keywords: [ 'gruntplugin' ],
+63 silly install resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+63 silly install resolved     contributors:
+63 silly install resolved      [ [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object],
+63 silly install resolved        [Object] ],
+63 silly install resolved     gitHead: 'b112f8591effb16bd48f8ed6cd84945dd2f8d35d',
+63 silly install resolved     _id: 'grunt-contrib-coffee@0.11.1',
+63 silly install resolved     _shasum: 'fafe3c9ee8a442bc8d17d5a5c19fc8e62d9f3f45',
+63 silly install resolved     _from: 'grunt-contrib-coffee@>=0.11.0 <0.12.0',
+63 silly install resolved     _npmVersion: '1.4.23',
+63 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+63 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: 'fafe3c9ee8a442bc8d17d5a5c19fc8e62d9f3f45',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.11.1.tgz' },
+63 silly install resolved     directories: {},
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.11.1.tgz',
+63 silly install resolved     readme: 'ERROR: No README data found!' } ]
+64 info install grunt-contrib-coffee@0.11.1 into /Users/rafen/projects/sandbox-elections
+65 info installOne grunt-contrib-coffee@0.11.1
+66 verbose installOne of grunt-contrib-coffee to /Users/rafen/projects/sandbox-elections not in flight; installing
+67 verbose lock using /Users/rafen/.npm/_locks/grunt-contrib-coffee-9ab7f4c8fd2b3e9f.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+68 silly install write writing grunt-contrib-coffee 0.11.1 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+69 silly cache addNamed cb grunt-contrib-coffee@0.11.1
+70 verbose unbuild node_modules/grunt-contrib-coffee
+71 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+72 verbose tar unpack /Users/rafen/.npm/grunt-contrib-coffee/0.11.1/package.tgz
+73 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+74 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry LICENSE-MIT
+79 silly gunzTarPerm extractEntry tasks/coffee.js
+80 info preinstall grunt-contrib-coffee@0.11.1
+81 silly prepareForInstallMany adding coffee-script@~1.7.0 from grunt-contrib-coffee dependencies
+82 silly prepareForInstallMany adding chalk@~0.5.0 from grunt-contrib-coffee dependencies
+83 silly prepareForInstallMany adding lodash@~2.4.1 from grunt-contrib-coffee dependencies
+84 silly cache add args [ 'coffee-script@~1.7.0', null ]
+85 verbose cache add spec coffee-script@~1.7.0
+86 silly cache add args [ 'chalk@~0.5.0', null ]
+87 verbose cache add spec chalk@~0.5.0
+88 silly cache add parsed spec { raw: 'coffee-script@~1.7.0',
+88 silly cache add   scope: null,
+88 silly cache add   name: 'coffee-script',
+88 silly cache add   rawSpec: '~1.7.0',
+88 silly cache add   spec: '>=1.7.0 <1.8.0',
+88 silly cache add   type: 'range' }
+89 verbose addNamed coffee-script@>=1.7.0 <1.8.0
+90 silly addNamed semver.valid null
+91 silly addNamed semver.validRange >=1.7.0 <1.8.0
+92 silly addNameRange { name: 'coffee-script',
+92 silly addNameRange   range: '>=1.7.0 <1.8.0',
+92 silly addNameRange   hasData: false }
+93 silly mapToRegistry name coffee-script
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+97 verbose addNameRange registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+98 silly cache add parsed spec { raw: 'chalk@~0.5.0',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'chalk',
+98 silly cache add   rawSpec: '~0.5.0',
+98 silly cache add   spec: '>=0.5.0 <0.6.0',
+98 silly cache add   type: 'range' }
+99 verbose addNamed chalk@>=0.5.0 <0.6.0
+100 silly addNamed semver.valid null
+101 silly addNamed semver.validRange >=0.5.0 <0.6.0
+102 silly addNameRange { name: 'chalk', range: '>=0.5.0 <0.6.0', hasData: false }
+103 silly mapToRegistry name chalk
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/chalk
+107 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+108 silly cache add args [ 'lodash@~2.4.1', null ]
+109 verbose cache add spec lodash@~2.4.1
+110 silly cache add parsed spec { raw: 'lodash@~2.4.1',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'lodash',
+110 silly cache add   rawSpec: '~2.4.1',
+110 silly cache add   spec: '>=2.4.1 <2.5.0',
+110 silly cache add   type: 'range' }
+111 verbose addNamed lodash@>=2.4.1 <2.5.0
+112 silly addNamed semver.valid null
+113 silly addNamed semver.validRange >=2.4.1 <2.5.0
+114 silly addNameRange { name: 'lodash', range: '>=2.4.1 <2.5.0', hasData: false }
+115 silly mapToRegistry name lodash
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/lodash
+119 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+120 verbose request uri https://registry.npmjs.org/chalk
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 00:11:59
+123 verbose etag "7ZX4CYO3RZRAOSKHHEWDR6M8H"
+124 http request GET https://registry.npmjs.org/chalk
+125 verbose request uri https://registry.npmjs.org/coffee-script
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 00:11:59
+128 verbose etag "707PGM10ZYR9545GS1XIMTEJT"
+129 http request GET https://registry.npmjs.org/coffee-script
+130 verbose request uri https://registry.npmjs.org/lodash
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 00:11:59
+133 verbose etag "2VC8IVVH1SBKQ1RPQC81KZEMQ"
+134 http request GET https://registry.npmjs.org/lodash
+135 http 304 https://registry.npmjs.org/lodash
+136 silly get cb [ 304,
+136 silly get   { date: 'Fri, 01 May 2015 03:12:00 GMT',
+136 silly get     via: '1.1 varnish',
+136 silly get     'last-modified': 'Fri, 01 May 2015 03:11:58 GMT',
+136 silly get     'cache-control': 'max-age=60',
+136 silly get     etag: '"2VC8IVVH1SBKQ1RPQC81KZEMQ"',
+136 silly get     age: '12',
+136 silly get     connection: 'keep-alive',
+136 silly get     'x-served-by': 'cache-jfk1028-JFK',
+136 silly get     'x-cache': 'HIT',
+136 silly get     'x-cache-hits': '2',
+136 silly get     'x-timer': 'S1430449920.564569,VS0,VE0',
+136 silly get     vary: 'Accept' } ]
+137 verbose etag https://registry.npmjs.org/lodash from cache
+138 verbose get saving lodash to /Users/rafen/.npm/registry.npmjs.org/lodash/.cache.json
+139 http 304 https://registry.npmjs.org/coffee-script
+140 silly get cb [ 304,
+140 silly get   { date: 'Fri, 01 May 2015 03:12:00 GMT',
+140 silly get     via: '1.1 varnish',
+140 silly get     'last-modified': 'Fri, 01 May 2015 03:11:15 GMT',
+140 silly get     'cache-control': 'max-age=60',
+140 silly get     etag: '"707PGM10ZYR9545GS1XIMTEJT"',
+140 silly get     age: '45',
+140 silly get     connection: 'keep-alive',
+140 silly get     'x-served-by': 'cache-jfk1025-JFK',
+140 silly get     'x-cache': 'HIT',
+140 silly get     'x-cache-hits': '2',
+140 silly get     'x-timer': 'S1430449920.566383,VS0,VE0',
+140 silly get     vary: 'Accept' } ]
+141 verbose etag https://registry.npmjs.org/coffee-script from cache
+142 verbose get saving coffee-script to /Users/rafen/.npm/registry.npmjs.org/coffee-script/.cache.json
+143 silly addNameRange number 2 { name: 'lodash', range: '>=2.4.1 <2.5.0', hasData: true }
+144 silly addNameRange versions [ 'lodash',
+144 silly addNameRange   [ '0.1.0',
+144 silly addNameRange     '0.2.0',
+144 silly addNameRange     '0.2.1',
+144 silly addNameRange     '0.2.2',
+144 silly addNameRange     '0.3.0',
+144 silly addNameRange     '0.3.1',
+144 silly addNameRange     '0.3.2',
+144 silly addNameRange     '0.4.0',
+144 silly addNameRange     '0.4.1',
+144 silly addNameRange     '0.4.2',
+144 silly addNameRange     '0.5.0-rc.1',
+144 silly addNameRange     '0.5.0',
+144 silly addNameRange     '0.5.1',
+144 silly addNameRange     '0.5.2',
+144 silly addNameRange     '0.6.0',
+144 silly addNameRange     '0.6.1',
+144 silly addNameRange     '0.7.0',
+144 silly addNameRange     '0.8.0',
+144 silly addNameRange     '0.8.1',
+144 silly addNameRange     '0.8.2',
+144 silly addNameRange     '0.9.0',
+144 silly addNameRange     '0.9.1',
+144 silly addNameRange     '0.9.2',
+144 silly addNameRange     '0.10.0',
+144 silly addNameRange     '1.0.0-rc.1',
+144 silly addNameRange     '1.0.0-rc.2',
+144 silly addNameRange     '1.0.0-rc.3',
+144 silly addNameRange     '1.0.0',
+144 silly addNameRange     '1.0.1',
+144 silly addNameRange     '1.1.0',
+144 silly addNameRange     '1.1.1',
+144 silly addNameRange     '1.2.0',
+144 silly addNameRange     '1.2.1',
+144 silly addNameRange     '1.3.0',
+144 silly addNameRange     '1.3.1',
+144 silly addNameRange     '2.0.0',
+144 silly addNameRange     '2.1.0',
+144 silly addNameRange     '2.2.0',
+144 silly addNameRange     '2.2.1',
+144 silly addNameRange     '2.3.0',
+144 silly addNameRange     '2.4.0',
+144 silly addNameRange     '2.4.1',
+144 silly addNameRange     '3.0.0',
+144 silly addNameRange     '3.0.1',
+144 silly addNameRange     '3.1.0',
+144 silly addNameRange     '3.2.0',
+144 silly addNameRange     '3.3.0',
+144 silly addNameRange     '3.3.1',
+144 silly addNameRange     '3.4.0',
+144 silly addNameRange     '3.5.0',
+144 silly addNameRange     '3.6.0',
+144 silly addNameRange     '1.0.2',
+144 silly addNameRange     '3.7.0',
+144 silly addNameRange     '2.4.2' ] ]
+145 verbose addNamed lodash@2.4.2
+146 silly addNamed semver.valid 2.4.2
+147 silly addNamed semver.validRange 2.4.2
+148 silly cache afterAdd lodash@2.4.2
+149 verbose afterAdd /Users/rafen/.npm/lodash/2.4.2/package/package.json not in flight; writing
+150 silly addNameRange number 2 { name: 'coffee-script', range: '>=1.7.0 <1.8.0', hasData: true }
+151 silly addNameRange versions [ 'coffee-script',
+151 silly addNameRange   [ '0.7.0',
+151 silly addNameRange     '0.7.1',
+151 silly addNameRange     '0.7.2',
+151 silly addNameRange     '0.9.0',
+151 silly addNameRange     '0.9.1',
+151 silly addNameRange     '0.9.2',
+151 silly addNameRange     '0.9.3',
+151 silly addNameRange     '0.9.4',
+151 silly addNameRange     '0.9.5',
+151 silly addNameRange     '0.9.6',
+151 silly addNameRange     '1.0.0',
+151 silly addNameRange     '1.0.1',
+151 silly addNameRange     '1.1.0',
+151 silly addNameRange     '1.1.1',
+151 silly addNameRange     '1.1.2',
+151 silly addNameRange     '1.1.3',
+151 silly addNameRange     '1.2.0',
+151 silly addNameRange     '1.3.0',
+151 silly addNameRange     '1.3.1',
+151 silly addNameRange     '1.3.2',
+151 silly addNameRange     '1.3.3',
+151 silly addNameRange     '1.4.0',
+151 silly addNameRange     '1.5.0',
+151 silly addNameRange     '1.6.0',
+151 silly addNameRange     '1.6.1',
+151 silly addNameRange     '1.6.2',
+151 silly addNameRange     '1.6.3',
+151 silly addNameRange     '1.7.0',
+151 silly addNameRange     '1.7.1',
+151 silly addNameRange     '1.8.0',
+151 silly addNameRange     '1.9.0',
+151 silly addNameRange     '1.9.1',
+151 silly addNameRange     '1.9.2' ] ]
+152 verbose addNamed coffee-script@1.7.1
+153 silly addNamed semver.valid 1.7.1
+154 silly addNamed semver.validRange 1.7.1
+155 verbose afterAdd /Users/rafen/.npm/lodash/2.4.2/package/package.json written
+156 silly cache afterAdd coffee-script@1.7.1
+157 verbose afterAdd /Users/rafen/.npm/coffee-script/1.7.1/package/package.json not in flight; writing
+158 verbose afterAdd /Users/rafen/.npm/coffee-script/1.7.1/package/package.json written
+159 http 304 https://registry.npmjs.org/chalk
+160 silly get cb [ 304,
+160 silly get   { date: 'Fri, 01 May 2015 03:12:00 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     'last-modified': 'Fri, 01 May 2015 03:11:30 GMT',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     etag: '"7ZX4CYO3RZRAOSKHHEWDR6M8H"',
+160 silly get     age: '31',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-jfk1021-JFK',
+160 silly get     'x-cache': 'HIT',
+160 silly get     'x-cache-hits': '2',
+160 silly get     'x-timer': 'S1430449920.666980,VS0,VE0',
+160 silly get     vary: 'Accept' } ]
+161 verbose etag https://registry.npmjs.org/chalk from cache
+162 verbose get saving chalk to /Users/rafen/.npm/registry.npmjs.org/chalk/.cache.json
+163 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.0 <0.6.0', hasData: true }
+164 silly addNameRange versions [ 'chalk',
+164 silly addNameRange   [ '0.1.0',
+164 silly addNameRange     '0.1.1',
+164 silly addNameRange     '0.2.0',
+164 silly addNameRange     '0.2.1',
+164 silly addNameRange     '0.3.0',
+164 silly addNameRange     '0.4.0',
+164 silly addNameRange     '0.5.0',
+164 silly addNameRange     '0.5.1',
+164 silly addNameRange     '1.0.0' ] ]
+165 verbose addNamed chalk@0.5.1
+166 silly addNamed semver.valid 0.5.1
+167 silly addNamed semver.validRange 0.5.1
+168 silly cache afterAdd chalk@0.5.1
+169 verbose afterAdd /Users/rafen/.npm/chalk/0.5.1/package/package.json not in flight; writing
+170 verbose afterAdd /Users/rafen/.npm/chalk/0.5.1/package/package.json written
+171 silly install resolved [ { name: 'lodash',
+171 silly install resolved     version: '2.4.2',
+171 silly install resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+171 silly install resolved     homepage: 'http://lodash.com/',
+171 silly install resolved     license: 'MIT',
+171 silly install resolved     main: 'dist/lodash.js',
+171 silly install resolved     keywords:
+171 silly install resolved      [ 'amd',
+171 silly install resolved        'browser',
+171 silly install resolved        'client',
+171 silly install resolved        'customize',
+171 silly install resolved        'functional',
+171 silly install resolved        'server',
+171 silly install resolved        'util' ],
+171 silly install resolved     author:
+171 silly install resolved      { name: 'John-David Dalton',
+171 silly install resolved        email: 'john.david.dalton@gmail.com',
+171 silly install resolved        url: 'http://allyoucanleet.com/' },
+171 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+171 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+171 silly install resolved     repository: { type: 'git', url: 'https://github.com/lodash/lodash.git' },
+171 silly install resolved     engines: [ 'node', 'rhino' ],
+171 silly install resolved     files:
+171 silly install resolved      [ 'LICENSE.txt',
+171 silly install resolved        'lodash.js',
+171 silly install resolved        'dist/lodash.js',
+171 silly install resolved        'dist/lodash.min.js',
+171 silly install resolved        'dist/lodash.compat.js',
+171 silly install resolved        'dist/lodash.compat.min.js',
+171 silly install resolved        'dist/lodash.underscore.js',
+171 silly install resolved        'dist/lodash.underscore.min.js' ],
+171 silly install resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+171 silly install resolved     volo: { type: 'directory', ignore: [Object] },
+171 silly install resolved     _id: 'lodash@2.4.2',
+171 silly install resolved     scripts: {},
+171 silly install resolved     _shasum: 'fadd834b9683073da179b3eae6d9c0d15053f73e',
+171 silly install resolved     _from: 'lodash@>=2.4.1 <2.5.0',
+171 silly install resolved     _npmVersion: '2.7.5',
+171 silly install resolved     _nodeVersion: '0.12.2',
+171 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+171 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+171 silly install resolved     dist:
+171 silly install resolved      { shasum: 'fadd834b9683073da179b3eae6d9c0d15053f73e',
+171 silly install resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz' },
+171 silly install resolved     directories: {},
+171 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz',
+171 silly install resolved     readme: 'ERROR: No README data found!' },
+171 silly install resolved   { name: 'coffee-script',
+171 silly install resolved     description: 'Unfancy JavaScript',
+171 silly install resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+171 silly install resolved     author: { name: 'Jeremy Ashkenas' },
+171 silly install resolved     version: '1.7.1',
+171 silly install resolved     license: 'MIT',
+171 silly install resolved     engines: { node: '>=0.8.0' },
+171 silly install resolved     directories: { lib: './lib/coffee-script' },
+171 silly install resolved     main: './lib/coffee-script/coffee-script',
+171 silly install resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+171 silly install resolved     scripts: { test: 'node ./bin/cake test' },
+171 silly install resolved     homepage: 'http://coffeescript.org',
+171 silly install resolved     bugs: { url: 'https://github.com/jashkenas/coffee-script/issues' },
+171 silly install resolved     repository:
+171 silly install resolved      { type: 'git',
+171 silly install resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+171 silly install resolved     devDependencies:
+171 silly install resolved      { 'uglify-js': '~2.2',
+171 silly install resolved        jison: '>=0.2.0',
+171 silly install resolved        'highlight.js': '~8.0.0',
+171 silly install resolved        underscore: '~1.5.2' },
+171 silly install resolved     dependencies: { mkdirp: '~0.3.5' },
+171 silly install resolved     _id: 'coffee-script@1.7.1',
+171 silly install resolved     dist:
+171 silly install resolved      { shasum: '62996a861780c75e6d5069d13822723b73404bfc',
+171 silly install resolved        tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz' },
+171 silly install resolved     _from: 'coffee-script@>=1.7.0 <1.8.0',
+171 silly install resolved     _npmVersion: '1.3.24',
+171 silly install resolved     _npmUser: { name: 'michaelficarra', email: 'npm@michael.ficarra.me' },
+171 silly install resolved     maintainers: [ [Object] ],
+171 silly install resolved     _shasum: '62996a861780c75e6d5069d13822723b73404bfc',
+171 silly install resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz',
+171 silly install resolved     readme: 'ERROR: No README data found!' },
+171 silly install resolved   { name: 'chalk',
+171 silly install resolved     version: '0.5.1',
+171 silly install resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+171 silly install resolved     license: 'MIT',
+171 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+171 silly install resolved     maintainers: [ [Object], [Object] ],
+171 silly install resolved     engines: { node: '>=0.10.0' },
+171 silly install resolved     scripts: { test: 'mocha', bench: 'matcha benchmark.js' },
+171 silly install resolved     files: [ 'index.js' ],
+171 silly install resolved     keywords:
+171 silly install resolved      [ 'color',
+171 silly install resolved        'colour',
+171 silly install resolved        'colors',
+171 silly install resolved        'terminal',
+171 silly install resolved        'console',
+171 silly install resolved        'cli',
+171 silly install resolved        'string',
+171 silly install resolved        'ansi',
+171 silly install resolved        'styles',
+171 silly install resolved        'tty',
+171 silly install resolved        'formatting',
+171 silly install resolved        'rgb',
+171 silly install resolved        '256',
+171 silly install resolved        'shell',
+171 silly install resolved        'xterm',
+171 silly install resolved        'log',
+171 silly install resolved        'logging',
+171 silly install resolved        'command-line',
+171 silly install resolved        'text' ],
+171 silly install resolved     dependencies:
+171 silly install resolved      { 'ansi-styles': '^1.1.0',
+171 silly install resolved        'escape-string-regexp': '^1.0.0',
+171 silly install resolved        'has-ansi': '^0.1.0',
+171 silly install resolved        'strip-ansi': '^0.3.0',
+171 silly install resolved        'supports-color': '^0.2.0' },
+171 silly install resolved     devDependencies: { matcha: '^0.5.0', mocha: '*' },
+171 silly install resolved     gitHead: '994758f01293f1fdcf63282e9917cb9f2cfbdaac',
+171 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+171 silly install resolved     homepage: 'https://github.com/sindresorhus/chalk',
+171 silly install resolved     _id: 'chalk@0.5.1',
+171 silly install resolved     _shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+171 silly install resolved     _from: 'chalk@>=0.5.0 <0.6.0',
+171 silly install resolved     _npmVersion: '1.4.14',
+171 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+171 silly install resolved     dist:
+171 silly install resolved      { shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+171 silly install resolved        tarball: 'http://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz' },
+171 silly install resolved     directories: {},
+171 silly install resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz',
+171 silly install resolved     readme: 'ERROR: No README data found!' } ]
+172 info install lodash@2.4.2 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+173 info install coffee-script@1.7.1 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+174 info install chalk@0.5.1 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+175 info installOne lodash@2.4.2
+176 verbose installOne of lodash to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee not in flight; installing
+177 info installOne coffee-script@1.7.1
+178 verbose installOne of coffee-script to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee not in flight; installing
+179 info installOne chalk@0.5.1
+180 verbose installOne of chalk to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee not in flight; installing
+181 verbose lock using /Users/rafen/.npm/_locks/lodash-792d85e21ad98002.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+182 verbose lock using /Users/rafen/.npm/_locks/coffee-script-2f754881557a83d4.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+183 silly install write writing lodash 2.4.2 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+184 silly cache addNamed cb lodash@2.4.2
+185 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/lodash
+186 verbose lock using /Users/rafen/.npm/_locks/chalk-e03af084c788d10e.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+187 silly install write writing coffee-script 1.7.1 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+188 silly cache addNamed cb coffee-script@1.7.1
+189 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/coffee-script
+190 silly install write writing chalk 0.5.1 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+191 silly cache addNamed cb chalk@0.5.1
+192 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk
+193 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+194 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+195 verbose tar unpack /Users/rafen/.npm/lodash/2.4.2/package.tgz
+196 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+197 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+198 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+199 verbose tar unpack /Users/rafen/.npm/coffee-script/1.7.1/package.tgz
+200 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+201 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+202 silly gunzTarPerm modes [ '755', '644' ]
+203 verbose tar unpack /Users/rafen/.npm/chalk/0.5.1/package.tgz
+204 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+205 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+206 silly gunzTarPerm modes [ '755', '644' ]
+207 silly gunzTarPerm modes [ '755', '644' ]
+208 silly gunzTarPerm extractEntry package.json
+209 silly gunzTarPerm extractEntry package.json
+210 silly gunzTarPerm extractEntry package.json
+211 silly gunzTarPerm extractEntry README.md
+212 silly gunzTarPerm extractEntry lodash.js
+213 silly gunzTarPerm extractEntry index.js
+214 silly gunzTarPerm extractEntry readme.md
+215 silly gunzTarPerm extractEntry .npmignore
+216 silly gunzTarPerm extractEntry README
+217 silly gunzTarPerm extractEntry LICENSE
+218 silly gunzTarPerm extractEntry register.js
+219 silly gunzTarPerm extractEntry LICENSE.txt
+220 silly gunzTarPerm extractEntry CNAME
+221 silly gunzTarPerm extractEntry CONTRIBUTING.md
+222 silly gunzTarPerm extractEntry bin/cake
+223 silly gunzTarPerm extractEntry bin/coffee
+224 silly gunzTarPerm extractEntry dist/lodash.compat.js
+225 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+226 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+227 info preinstall chalk@0.5.1
+228 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+229 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+230 silly prepareForInstallMany adding ansi-styles@^1.1.0 from chalk dependencies
+231 silly prepareForInstallMany adding escape-string-regexp@^1.0.0 from chalk dependencies
+232 silly prepareForInstallMany adding has-ansi@^0.1.0 from chalk dependencies
+233 silly prepareForInstallMany adding strip-ansi@^0.3.0 from chalk dependencies
+234 silly prepareForInstallMany adding supports-color@^0.2.0 from chalk dependencies
+235 silly cache add args [ 'ansi-styles@^1.1.0', null ]
+236 verbose cache add spec ansi-styles@^1.1.0
+237 silly cache add args [ 'escape-string-regexp@^1.0.0', null ]
+238 verbose cache add spec escape-string-regexp@^1.0.0
+239 silly cache add parsed spec { raw: 'ansi-styles@^1.1.0',
+239 silly cache add   scope: null,
+239 silly cache add   name: 'ansi-styles',
+239 silly cache add   rawSpec: '^1.1.0',
+239 silly cache add   spec: '>=1.1.0 <2.0.0',
+239 silly cache add   type: 'range' }
+240 verbose addNamed ansi-styles@>=1.1.0 <2.0.0
+241 silly addNamed semver.valid null
+242 silly addNamed semver.validRange >=1.1.0 <2.0.0
+243 silly addNameRange { name: 'ansi-styles', range: '>=1.1.0 <2.0.0', hasData: false }
+244 silly mapToRegistry name ansi-styles
+245 silly mapToRegistry using default registry
+246 silly mapToRegistry registry https://registry.npmjs.org/
+247 silly mapToRegistry uri https://registry.npmjs.org/ansi-styles
+248 verbose addNameRange registry:https://registry.npmjs.org/ansi-styles not in flight; fetching
+249 silly cache add parsed spec { raw: 'escape-string-regexp@^1.0.0',
+249 silly cache add   scope: null,
+249 silly cache add   name: 'escape-string-regexp',
+249 silly cache add   rawSpec: '^1.0.0',
+249 silly cache add   spec: '>=1.0.0 <2.0.0',
+249 silly cache add   type: 'range' }
+250 verbose addNamed escape-string-regexp@>=1.0.0 <2.0.0
+251 silly addNamed semver.valid null
+252 silly addNamed semver.validRange >=1.0.0 <2.0.0
+253 silly addNameRange { name: 'escape-string-regexp',
+253 silly addNameRange   range: '>=1.0.0 <2.0.0',
+253 silly addNameRange   hasData: false }
+254 silly mapToRegistry name escape-string-regexp
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+258 verbose addNameRange registry:https://registry.npmjs.org/escape-string-regexp not in flight; fetching
+259 silly cache add args [ 'has-ansi@^0.1.0', null ]
+260 verbose cache add spec has-ansi@^0.1.0
+261 silly cache add parsed spec { raw: 'has-ansi@^0.1.0',
+261 silly cache add   scope: null,
+261 silly cache add   name: 'has-ansi',
+261 silly cache add   rawSpec: '^0.1.0',
+261 silly cache add   spec: '>=0.1.0 <0.2.0',
+261 silly cache add   type: 'range' }
+262 verbose addNamed has-ansi@>=0.1.0 <0.2.0
+263 silly addNamed semver.valid null
+264 silly addNamed semver.validRange >=0.1.0 <0.2.0
+265 silly addNameRange { name: 'has-ansi', range: '>=0.1.0 <0.2.0', hasData: false }
+266 silly mapToRegistry name has-ansi
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry uri https://registry.npmjs.org/has-ansi
+270 verbose addNameRange registry:https://registry.npmjs.org/has-ansi not in flight; fetching
+271 silly cache add args [ 'strip-ansi@^0.3.0', null ]
+272 verbose cache add spec strip-ansi@^0.3.0
+273 silly cache add parsed spec { raw: 'strip-ansi@^0.3.0',
+273 silly cache add   scope: null,
+273 silly cache add   name: 'strip-ansi',
+273 silly cache add   rawSpec: '^0.3.0',
+273 silly cache add   spec: '>=0.3.0 <0.4.0',
+273 silly cache add   type: 'range' }
+274 verbose addNamed strip-ansi@>=0.3.0 <0.4.0
+275 silly addNamed semver.valid null
+276 silly addNamed semver.validRange >=0.3.0 <0.4.0
+277 silly addNameRange { name: 'strip-ansi', range: '>=0.3.0 <0.4.0', hasData: false }
+278 silly mapToRegistry name strip-ansi
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+282 verbose addNameRange registry:https://registry.npmjs.org/strip-ansi not in flight; fetching
+283 silly cache add args [ 'supports-color@^0.2.0', null ]
+284 verbose cache add spec supports-color@^0.2.0
+285 silly cache add parsed spec { raw: 'supports-color@^0.2.0',
+285 silly cache add   scope: null,
+285 silly cache add   name: 'supports-color',
+285 silly cache add   rawSpec: '^0.2.0',
+285 silly cache add   spec: '>=0.2.0 <0.3.0',
+285 silly cache add   type: 'range' }
+286 verbose addNamed supports-color@>=0.2.0 <0.3.0
+287 silly addNamed semver.valid null
+288 silly addNamed semver.validRange >=0.2.0 <0.3.0
+289 silly addNameRange { name: 'supports-color',
+289 silly addNameRange   range: '>=0.2.0 <0.3.0',
+289 silly addNameRange   hasData: false }
+290 silly mapToRegistry name supports-color
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+294 verbose addNameRange registry:https://registry.npmjs.org/supports-color not in flight; fetching
+295 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+296 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+297 verbose request uri https://registry.npmjs.org/ansi-styles
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 00:12:00
+300 verbose etag "9O45NVZEP528XJ58TZ8A6DMA0"
+301 http request GET https://registry.npmjs.org/ansi-styles
+302 verbose request uri https://registry.npmjs.org/escape-string-regexp
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 00:12:00
+305 verbose etag "3MH82UYHNQXDML9K2XGNGQDOS"
+306 http request GET https://registry.npmjs.org/escape-string-regexp
+307 verbose request uri https://registry.npmjs.org/has-ansi
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 00:12:00
+310 verbose etag "E4845616HRC12WMH43M936NTT"
+311 http request GET https://registry.npmjs.org/has-ansi
+312 verbose request uri https://registry.npmjs.org/strip-ansi
+313 verbose request no auth needed
+314 info attempt registry request try #1 at 00:12:00
+315 verbose etag "9D9S1Y0BBQD36UMUV9U38ZKG1"
+316 http request GET https://registry.npmjs.org/strip-ansi
+317 verbose request uri https://registry.npmjs.org/supports-color
+318 verbose request no auth needed
+319 info attempt registry request try #1 at 00:12:00
+320 verbose etag "4SHNAEHD19S3VGADXSKO905S7"
+321 http request GET https://registry.npmjs.org/supports-color
+322 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+323 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+324 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+325 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+326 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+327 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+328 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+329 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+330 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+331 silly gunzTarPerm extractEntry dist/lodash.js
+332 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+333 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+334 silly gunzTarPerm extractEntry dist/lodash.min.js
+335 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+336 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+337 info preinstall coffee-script@1.7.1
+338 silly prepareForInstallMany adding mkdirp@~0.3.5 from coffee-script dependencies
+339 silly cache add args [ 'mkdirp@~0.3.5', null ]
+340 verbose cache add spec mkdirp@~0.3.5
+341 silly cache add parsed spec { raw: 'mkdirp@~0.3.5',
+341 silly cache add   scope: null,
+341 silly cache add   name: 'mkdirp',
+341 silly cache add   rawSpec: '~0.3.5',
+341 silly cache add   spec: '>=0.3.5 <0.4.0',
+341 silly cache add   type: 'range' }
+342 verbose addNamed mkdirp@>=0.3.5 <0.4.0
+343 silly addNamed semver.valid null
+344 silly addNamed semver.validRange >=0.3.5 <0.4.0
+345 silly addNameRange { name: 'mkdirp', range: '>=0.3.5 <0.4.0', hasData: false }
+346 silly mapToRegistry name mkdirp
+347 silly mapToRegistry using default registry
+348 silly mapToRegistry registry https://registry.npmjs.org/
+349 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+350 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+351 verbose request uri https://registry.npmjs.org/mkdirp
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 00:12:00
+354 verbose etag "7F1U0NKWVWZ0LTDK4GHVKD2OV"
+355 http request GET https://registry.npmjs.org/mkdirp
+356 info preinstall lodash@2.4.2
+357 silly install resolved []
+358 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+359 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+360 verbose linkStuff [ false,
+360 verbose linkStuff   false,
+360 verbose linkStuff   false,
+360 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules' ]
+361 info linkStuff lodash@2.4.2
+362 verbose linkBins lodash@2.4.2
+363 verbose linkMans lodash@2.4.2
+364 verbose rebuildBundles lodash@2.4.2
+365 info install lodash@2.4.2
+366 info postinstall lodash@2.4.2
+367 verbose unlock done using /Users/rafen/.npm/_locks/lodash-792d85e21ad98002.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/lodash
+368 http 304 https://registry.npmjs.org/escape-string-regexp
+369 silly get cb [ 304,
+369 silly get   { date: 'Fri, 01 May 2015 03:12:01 GMT',
+369 silly get     via: '1.1 varnish',
+369 silly get     'last-modified': 'Fri, 01 May 2015 03:11:47 GMT',
+369 silly get     'cache-control': 'max-age=60',
+369 silly get     etag: '"3MH82UYHNQXDML9K2XGNGQDOS"',
+369 silly get     age: '26',
+369 silly get     connection: 'keep-alive',
+369 silly get     'x-served-by': 'cache-jfk1024-JFK',
+369 silly get     'x-cache': 'HIT',
+369 silly get     'x-cache-hits': '3',
+369 silly get     'x-timer': 'S1430449921.684777,VS0,VE0',
+369 silly get     vary: 'Accept' } ]
+370 verbose etag https://registry.npmjs.org/escape-string-regexp from cache
+371 verbose get saving escape-string-regexp to /Users/rafen/.npm/registry.npmjs.org/escape-string-regexp/.cache.json
+372 silly addNameRange number 2 { name: 'escape-string-regexp',
+372 silly addNameRange   range: '>=1.0.0 <2.0.0',
+372 silly addNameRange   hasData: true }
+373 silly addNameRange versions [ 'escape-string-regexp',
+373 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+374 verbose addNamed escape-string-regexp@1.0.3
+375 silly addNamed semver.valid 1.0.3
+376 silly addNamed semver.validRange 1.0.3
+377 silly cache afterAdd escape-string-regexp@1.0.3
+378 verbose afterAdd /Users/rafen/.npm/escape-string-regexp/1.0.3/package/package.json not in flight; writing
+379 verbose afterAdd /Users/rafen/.npm/escape-string-regexp/1.0.3/package/package.json written
+380 http 304 https://registry.npmjs.org/has-ansi
+381 silly get cb [ 304,
+381 silly get   { date: 'Fri, 01 May 2015 03:12:01 GMT',
+381 silly get     via: '1.1 varnish',
+381 silly get     'cache-control': 'max-age=60',
+381 silly get     etag: '"E4845616HRC12WMH43M936NTT"',
+381 silly get     age: '14',
+381 silly get     connection: 'keep-alive',
+381 silly get     'x-served-by': 'cache-jfk1023-JFK',
+381 silly get     'x-cache': 'HIT',
+381 silly get     'x-cache-hits': '2',
+381 silly get     'x-timer': 'S1430449921.709408,VS0,VE0',
+381 silly get     vary: 'Accept' } ]
+382 verbose etag https://registry.npmjs.org/has-ansi from cache
+383 verbose get saving has-ansi to /Users/rafen/.npm/registry.npmjs.org/has-ansi/.cache.json
+384 http 304 https://registry.npmjs.org/strip-ansi
+385 silly get cb [ 304,
+385 silly get   { date: 'Fri, 01 May 2015 03:12:01 GMT',
+385 silly get     via: '1.1 varnish',
+385 silly get     'last-modified': 'Fri, 01 May 2015 03:11:30 GMT',
+385 silly get     'cache-control': 'max-age=60',
+385 silly get     etag: '"9D9S1Y0BBQD36UMUV9U38ZKG1"',
+385 silly get     age: '31',
+385 silly get     connection: 'keep-alive',
+385 silly get     'x-served-by': 'cache-jfk1030-JFK',
+385 silly get     'x-cache': 'HIT',
+385 silly get     'x-cache-hits': '4',
+385 silly get     'x-timer': 'S1430449921.714167,VS0,VE0',
+385 silly get     vary: 'Accept' } ]
+386 verbose etag https://registry.npmjs.org/strip-ansi from cache
+387 verbose get saving strip-ansi to /Users/rafen/.npm/registry.npmjs.org/strip-ansi/.cache.json
+388 http 304 https://registry.npmjs.org/ansi-styles
+389 silly get cb [ 304,
+389 silly get   { date: 'Fri, 01 May 2015 03:12:01 GMT',
+389 silly get     via: '1.1 varnish',
+389 silly get     'cache-control': 'max-age=60',
+389 silly get     etag: '"9O45NVZEP528XJ58TZ8A6DMA0"',
+389 silly get     age: '4',
+389 silly get     connection: 'keep-alive',
+389 silly get     'x-served-by': 'cache-jfk1033-JFK',
+389 silly get     'x-cache': 'HIT',
+389 silly get     'x-cache-hits': '1',
+389 silly get     'x-timer': 'S1430449921.714416,VS0,VE0',
+389 silly get     vary: 'Accept' } ]
+390 verbose etag https://registry.npmjs.org/ansi-styles from cache
+391 verbose get saving ansi-styles to /Users/rafen/.npm/registry.npmjs.org/ansi-styles/.cache.json
+392 silly addNameRange number 2 { name: 'has-ansi', range: '>=0.1.0 <0.2.0', hasData: true }
+393 silly addNameRange versions [ 'has-ansi', [ '0.1.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+394 verbose addNamed has-ansi@0.1.0
+395 silly addNamed semver.valid 0.1.0
+396 silly addNamed semver.validRange 0.1.0
+397 silly addNameRange number 2 { name: 'strip-ansi', range: '>=0.3.0 <0.4.0', hasData: true }
+398 silly addNameRange versions [ 'strip-ansi',
+398 silly addNameRange   [ '0.1.0',
+398 silly addNameRange     '0.1.1',
+398 silly addNameRange     '0.2.0',
+398 silly addNameRange     '0.2.1',
+398 silly addNameRange     '0.2.2',
+398 silly addNameRange     '0.3.0',
+398 silly addNameRange     '1.0.0',
+398 silly addNameRange     '2.0.0',
+398 silly addNameRange     '2.0.1' ] ]
+399 verbose addNamed strip-ansi@0.3.0
+400 silly addNamed semver.valid 0.3.0
+401 silly addNamed semver.validRange 0.3.0
+402 silly addNameRange number 2 { name: 'ansi-styles', range: '>=1.1.0 <2.0.0', hasData: true }
+403 silly addNameRange versions [ 'ansi-styles',
+403 silly addNameRange   [ '0.1.0',
+403 silly addNameRange     '0.1.1',
+403 silly addNameRange     '0.1.2',
+403 silly addNameRange     '0.2.0',
+403 silly addNameRange     '1.0.0',
+403 silly addNameRange     '1.1.0',
+403 silly addNameRange     '2.0.0',
+403 silly addNameRange     '2.0.1' ] ]
+404 verbose addNamed ansi-styles@1.1.0
+405 silly addNamed semver.valid 1.1.0
+406 silly addNamed semver.validRange 1.1.0
+407 silly cache afterAdd strip-ansi@0.3.0
+408 verbose afterAdd /Users/rafen/.npm/strip-ansi/0.3.0/package/package.json not in flight; writing
+409 silly cache afterAdd has-ansi@0.1.0
+410 verbose afterAdd /Users/rafen/.npm/has-ansi/0.1.0/package/package.json not in flight; writing
+411 silly cache afterAdd ansi-styles@1.1.0
+412 verbose afterAdd /Users/rafen/.npm/ansi-styles/1.1.0/package/package.json not in flight; writing
+413 verbose afterAdd /Users/rafen/.npm/ansi-styles/1.1.0/package/package.json written
+414 verbose afterAdd /Users/rafen/.npm/has-ansi/0.1.0/package/package.json written
+415 verbose afterAdd /Users/rafen/.npm/strip-ansi/0.3.0/package/package.json written
+416 http 304 https://registry.npmjs.org/supports-color
+417 silly get cb [ 304,
+417 silly get   { date: 'Fri, 01 May 2015 03:12:01 GMT',
+417 silly get     via: '1.1 varnish',
+417 silly get     'cache-control': 'max-age=60',
+417 silly get     etag: '"4SHNAEHD19S3VGADXSKO905S7"',
+417 silly get     age: '45',
+417 silly get     connection: 'keep-alive',
+417 silly get     'x-served-by': 'cache-jfk1023-JFK',
+417 silly get     'x-cache': 'HIT',
+417 silly get     'x-cache-hits': '3',
+417 silly get     'x-timer': 'S1430449921.822334,VS0,VE0',
+417 silly get     vary: 'Accept' } ]
+418 verbose etag https://registry.npmjs.org/supports-color from cache
+419 verbose get saving supports-color to /Users/rafen/.npm/registry.npmjs.org/supports-color/.cache.json
+420 silly addNameRange number 2 { name: 'supports-color',
+420 silly addNameRange   range: '>=0.2.0 <0.3.0',
+420 silly addNameRange   hasData: true }
+421 silly addNameRange versions [ 'supports-color',
+421 silly addNameRange   [ '0.2.0', '1.0.0', '1.1.0', '1.2.0', '1.2.1', '1.3.0', '1.3.1' ] ]
+422 verbose addNamed supports-color@0.2.0
+423 silly addNamed semver.valid 0.2.0
+424 silly addNamed semver.validRange 0.2.0
+425 silly cache afterAdd supports-color@0.2.0
+426 verbose afterAdd /Users/rafen/.npm/supports-color/0.2.0/package/package.json not in flight; writing
+427 verbose afterAdd /Users/rafen/.npm/supports-color/0.2.0/package/package.json written
+428 silly install resolved [ { name: 'escape-string-regexp',
+428 silly install resolved     version: '1.0.3',
+428 silly install resolved     description: 'Escape RegExp special characters',
+428 silly install resolved     license: 'MIT',
+428 silly install resolved     repository:
+428 silly install resolved      { type: 'git',
+428 silly install resolved        url: 'https://github.com/sindresorhus/escape-string-regexp' },
+428 silly install resolved     author:
+428 silly install resolved      { name: 'Sindre Sorhus',
+428 silly install resolved        email: 'sindresorhus@gmail.com',
+428 silly install resolved        url: 'http://sindresorhus.com' },
+428 silly install resolved     maintainers: [ [Object], [Object] ],
+428 silly install resolved     engines: { node: '>=0.8.0' },
+428 silly install resolved     scripts: { test: 'mocha' },
+428 silly install resolved     files: [ 'index.js' ],
+428 silly install resolved     keywords:
+428 silly install resolved      [ 'regex',
+428 silly install resolved        'regexp',
+428 silly install resolved        're',
+428 silly install resolved        'regular',
+428 silly install resolved        'expression',
+428 silly install resolved        'escape',
+428 silly install resolved        'string',
+428 silly install resolved        'str',
+428 silly install resolved        'special',
+428 silly install resolved        'characters' ],
+428 silly install resolved     devDependencies: { mocha: '*' },
+428 silly install resolved     gitHead: '1e446e6b4449b5f1f8868cd31bf8fd25ee37fb4b',
+428 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/escape-string-regexp/issues' },
+428 silly install resolved     homepage: 'https://github.com/sindresorhus/escape-string-regexp',
+428 silly install resolved     _id: 'escape-string-regexp@1.0.3',
+428 silly install resolved     _shasum: '9e2d8b25bc2555c3336723750e03f099c2735bb5',
+428 silly install resolved     _from: 'escape-string-regexp@>=1.0.0 <2.0.0',
+428 silly install resolved     _npmVersion: '2.1.16',
+428 silly install resolved     _nodeVersion: '0.10.35',
+428 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+428 silly install resolved     dist:
+428 silly install resolved      { shasum: '9e2d8b25bc2555c3336723750e03f099c2735bb5',
+428 silly install resolved        tarball: 'http://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.3.tgz' },
+428 silly install resolved     directories: {},
+428 silly install resolved     _resolved: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.3.tgz',
+428 silly install resolved     readme: 'ERROR: No README data found!' },
+428 silly install resolved   { name: 'ansi-styles',
+428 silly install resolved     version: '1.1.0',
+428 silly install resolved     description: 'ANSI escape codes for styling strings in the terminal',
+428 silly install resolved     license: 'MIT',
+428 silly install resolved     repository:
+428 silly install resolved      { type: 'git',
+428 silly install resolved        url: 'git://github.com/sindresorhus/ansi-styles' },
+428 silly install resolved     author:
+428 silly install resolved      { name: 'Sindre Sorhus',
+428 silly install resolved        email: 'sindresorhus@gmail.com',
+428 silly install resolved        url: 'http://sindresorhus.com' },
+428 silly install resolved     engines: { node: '>=0.10.0' },
+428 silly install resolved     scripts: { test: 'mocha' },
+428 silly install resolved     files: [ 'index.js' ],
+428 silly install resolved     keywords:
+428 silly install resolved      [ 'ansi',
+428 silly install resolved        'styles',
+428 silly install resolved        'color',
+428 silly install resolved        'colour',
+428 silly install resolved        'colors',
+428 silly install resolved        'terminal',
+428 silly install resolved        'console',
+428 silly install resolved        'cli',
+428 silly install resolved        'string',
+428 silly install resolved        'tty',
+428 silly install resolved        'escape',
+428 silly install resolved        'formatting',
+428 silly install resolved        'rgb',
+428 silly install resolved        '256',
+428 silly install resolved        'shell',
+428 silly install resolved        'xterm',
+428 silly install resolved        'log',
+428 silly install resolved        'logging',
+428 silly install resolved        'command-line',
+428 silly install resolved        'text' ],
+428 silly install resolved     devDependencies: { mocha: '*' },
+428 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-styles/issues' },
+428 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-styles',
+428 silly install resolved     _id: 'ansi-styles@1.1.0',
+428 silly install resolved     _shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+428 silly install resolved     _from: 'ansi-styles@>=1.1.0 <2.0.0',
+428 silly install resolved     _npmVersion: '1.4.9',
+428 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+428 silly install resolved     maintainers: [ [Object] ],
+428 silly install resolved     dist:
+428 silly install resolved      { shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+428 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz' },
+428 silly install resolved     directories: {},
+428 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz',
+428 silly install resolved     readme: 'ERROR: No README data found!' },
+428 silly install resolved   { name: 'has-ansi',
+428 silly install resolved     version: '0.1.0',
+428 silly install resolved     description: 'Check if a string has ANSI escape codes',
+428 silly install resolved     license: 'MIT',
+428 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/has-ansi' },
+428 silly install resolved     bin: { 'has-ansi': 'cli.js' },
+428 silly install resolved     author:
+428 silly install resolved      { name: 'Sindre Sorhus',
+428 silly install resolved        email: 'sindresorhus@gmail.com',
+428 silly install resolved        url: 'http://sindresorhus.com' },
+428 silly install resolved     engines: { node: '>=0.10.0' },
+428 silly install resolved     scripts: { test: 'mocha' },
+428 silly install resolved     files: [ 'index.js', 'cli.js' ],
+428 silly install resolved     keywords:
+428 silly install resolved      [ 'cli',
+428 silly install resolved        'bin',
+428 silly install resolved        'ansi',
+428 silly install resolved        'styles',
+428 silly install resolved        'color',
+428 silly install resolved        'colour',
+428 silly install resolved        'colors',
+428 silly install resolved        'terminal',
+428 silly install resolved        'console',
+428 silly install resolved        'string',
+428 silly install resolved        'tty',
+428 silly install resolved        'escape',
+428 silly install resolved        'shell',
+428 silly install resolved        'xterm',
+428 silly install resolved        'command-line',
+428 silly install resolved        'text',
+428 silly install resolved        'regex',
+428 silly install resolved        'regexp',
+428 silly install resolved        're',
+428 silly install resolved        'match',
+428 silly install resolved        'test',
+428 silly install resolved        'find',
+428 silly install resolved        'pattern',
+428 silly install resolved        'has' ],
+428 silly install resolved     dependencies: { 'ansi-regex': '^0.2.0' },
+428 silly install resolved     devDependencies: { mocha: '*' },
+428 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/has-ansi/issues' },
+428 silly install resolved     homepage: 'https://github.com/sindresorhus/has-ansi',
+428 silly install resolved     _id: 'has-ansi@0.1.0',
+428 silly install resolved     _shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+428 silly install resolved     _from: 'has-ansi@>=0.1.0 <0.2.0',
+428 silly install resolved     _npmVersion: '1.4.9',
+428 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+428 silly install resolved     maintainers: [ [Object] ],
+428 silly install resolved     dist:
+428 silly install resolved      { shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+428 silly install resolved        tarball: 'http://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz' },
+428 silly install resolved     directories: {},
+428 silly install resolved     _resolved: 'https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz',
+428 silly install resolved     readme: 'ERROR: No README data found!' },
+428 silly install resolved   { name: 'strip-ansi',
+428 silly install resolved     version: '0.3.0',
+428 silly install resolved     description: 'Strip ANSI escape codes',
+428 silly install resolved     license: 'MIT',
+428 silly install resolved     bin: { 'strip-ansi': 'cli.js' },
+428 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/strip-ansi' },
+428 silly install resolved     author:
+428 silly install resolved      { name: 'Sindre Sorhus',
+428 silly install resolved        email: 'sindresorhus@gmail.com',
+428 silly install resolved        url: 'http://sindresorhus.com' },
+428 silly install resolved     engines: { node: '>=0.10.0' },
+428 silly install resolved     scripts: { test: 'mocha' },
+428 silly install resolved     files: [ 'index.js', 'cli.js' ],
+428 silly install resolved     keywords:
+428 silly install resolved      [ 'strip',
+428 silly install resolved        'trim',
+428 silly install resolved        'remove',
+428 silly install resolved        'ansi',
+428 silly install resolved        'styles',
+428 silly install resolved        'color',
+428 silly install resolved        'colour',
+428 silly install resolved        'colors',
+428 silly install resolved        'terminal',
+428 silly install resolved        'console',
+428 silly install resolved        'cli',
+428 silly install resolved        'string',
+428 silly install resolved        'tty',
+428 silly install resolved        'escape',
+428 silly install resolved        'formatting',
+428 silly install resolved        'rgb',
+428 silly install resolved        '256',
+428 silly install resolved        'shell',
+428 silly install resolved        'xterm',
+428 silly install resolved        'log',
+428 silly install resolved        'logging',
+428 silly install resolved        'command-line',
+428 silly install resolved        'text' ],
+428 silly install resolved     dependencies: { 'ansi-regex': '^0.2.1' },
+428 silly install resolved     devDependencies: { mocha: '*' },
+428 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/strip-ansi/issues' },
+428 silly install resolved     homepage: 'https://github.com/sindresorhus/strip-ansi',
+428 silly install resolved     _id: 'strip-ansi@0.3.0',
+428 silly install resolved     _shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+428 silly install resolved     _from: 'strip-ansi@>=0.3.0 <0.4.0',
+428 silly install resolved     _npmVersion: '1.4.9',
+428 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+428 silly install resolved     maintainers: [ [Object] ],
+428 silly install resolved     dist:
+428 silly install resolved      { shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+428 silly install resolved        tarball: 'http://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz' },
+428 silly install resolved     directories: {},
+428 silly install resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz',
+428 silly install resolved     readme: 'ERROR: No README data found!' },
+428 silly install resolved   { name: 'supports-color',
+428 silly install resolved     version: '0.2.0',
+428 silly install resolved     description: 'Detect whether a terminal supports color',
+428 silly install resolved     license: 'MIT',
+428 silly install resolved     repository:
+428 silly install resolved      { type: 'git',
+428 silly install resolved        url: 'git://github.com/sindresorhus/supports-color' },
+428 silly install resolved     bin: { 'supports-color': 'cli.js' },
+428 silly install resolved     author:
+428 silly install resolved      { name: 'Sindre Sorhus',
+428 silly install resolved        email: 'sindresorhus@gmail.com',
+428 silly install resolved        url: 'http://sindresorhus.com' },
+428 silly install resolved     engines: { node: '>=0.10.0' },
+428 silly install resolved     scripts: { test: 'mocha' },
+428 silly install resolved     files: [ 'index.js', 'cli.js' ],
+428 silly install resolved     keywords:
+428 silly install resolved      [ 'cli',
+428 silly install resolved        'bin',
+428 silly install resolved        'color',
+428 silly install resolved        'colour',
+428 silly install resolved        'colors',
+428 silly install resolved        'terminal',
+428 silly install resolved        'console',
+428 silly install resolved        'cli',
+428 silly install resolved        'ansi',
+428 silly install resolved        'styles',
+428 silly install resolved        'tty',
+428 silly install resolved        'rgb',
+428 silly install resolved        '256',
+428 silly install resolved        'shell',
+428 silly install resolved        'xterm',
+428 silly install resolved        'command-line',
+428 silly install resolved        'support',
+428 silly install resolved        'supports',
+428 silly install resolved        'capability',
+428 silly install resolved        'detect' ],
+428 silly install resolved     devDependencies: { mocha: '*' },
+428 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/supports-color/issues' },
+428 silly install resolved     homepage: 'https://github.com/sindresorhus/supports-color',
+428 silly install resolved     _id: 'supports-color@0.2.0',
+428 silly install resolved     _shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+428 silly install resolved     _from: 'supports-color@>=0.2.0 <0.3.0',
+428 silly install resolved     _npmVersion: '1.4.9',
+428 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+428 silly install resolved     maintainers: [ [Object] ],
+428 silly install resolved     dist:
+428 silly install resolved      { shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+428 silly install resolved        tarball: 'http://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz' },
+428 silly install resolved     directories: {},
+428 silly install resolved     _resolved: 'https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz',
+428 silly install resolved     readme: 'ERROR: No README data found!' } ]
+429 info install escape-string-regexp@1.0.3 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+430 info install ansi-styles@1.1.0 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+431 info install has-ansi@0.1.0 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+432 info install strip-ansi@0.3.0 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+433 info install supports-color@0.2.0 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+434 info installOne escape-string-regexp@1.0.3
+435 verbose installOne of escape-string-regexp to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk not in flight; installing
+436 info installOne ansi-styles@1.1.0
+437 verbose installOne of ansi-styles to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk not in flight; installing
+438 info installOne has-ansi@0.1.0
+439 verbose installOne of has-ansi to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk not in flight; installing
+440 info installOne strip-ansi@0.3.0
+441 verbose installOne of strip-ansi to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk not in flight; installing
+442 info installOne supports-color@0.2.0
+443 verbose installOne of supports-color to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk not in flight; installing
+444 verbose lock using /Users/rafen/.npm/_locks/escape-string-regexp-0c52afb98a62807a.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+445 verbose lock using /Users/rafen/.npm/_locks/has-ansi-c369f6ed264e3d13.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+446 verbose lock using /Users/rafen/.npm/_locks/ansi-styles-8616aba62dce58cf.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+447 verbose lock using /Users/rafen/.npm/_locks/strip-ansi-24a5939954761e84.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+448 silly install write writing escape-string-regexp 1.0.3 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+449 silly cache addNamed cb escape-string-regexp@1.0.3
+450 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+451 silly install write writing has-ansi 0.1.0 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+452 silly cache addNamed cb has-ansi@0.1.0
+453 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+454 silly install write writing ansi-styles 1.1.0 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+455 silly cache addNamed cb ansi-styles@1.1.0
+456 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+457 verbose lock using /Users/rafen/.npm/_locks/supports-color-25ce194610f32f33.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+458 silly install write writing strip-ansi 0.3.0 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+459 silly cache addNamed cb strip-ansi@0.3.0
+460 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+461 silly install write writing supports-color 0.2.0 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+462 silly cache addNamed cb supports-color@0.2.0
+463 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+464 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+465 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+466 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+467 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+468 verbose tar unpack /Users/rafen/.npm/escape-string-regexp/1.0.3/package.tgz
+469 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+470 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+471 verbose tar unpack /Users/rafen/.npm/has-ansi/0.1.0/package.tgz
+472 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+473 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+474 verbose tar unpack /Users/rafen/.npm/ansi-styles/1.1.0/package.tgz
+475 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+476 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+477 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+478 verbose tar unpack /Users/rafen/.npm/strip-ansi/0.3.0/package.tgz
+479 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+480 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+481 silly gunzTarPerm modes [ '755', '644' ]
+482 silly gunzTarPerm modes [ '755', '644' ]
+483 silly gunzTarPerm modes [ '755', '644' ]
+484 verbose tar unpack /Users/rafen/.npm/supports-color/0.2.0/package.tgz
+485 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+486 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+487 silly gunzTarPerm modes [ '755', '644' ]
+488 silly gunzTarPerm modes [ '755', '644' ]
+489 silly gunzTarPerm extractEntry package.json
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm extractEntry package.json
+492 silly gunzTarPerm extractEntry package.json
+493 silly gunzTarPerm extractEntry package.json
+494 silly gunzTarPerm extractEntry index.js
+495 silly gunzTarPerm extractEntry license
+496 silly gunzTarPerm extractEntry cli.js
+497 silly gunzTarPerm extractEntry index.js
+498 silly gunzTarPerm extractEntry index.js
+499 silly gunzTarPerm extractEntry readme.md
+500 silly gunzTarPerm extractEntry cli.js
+501 silly gunzTarPerm extractEntry index.js
+502 silly gunzTarPerm extractEntry cli.js
+503 silly gunzTarPerm extractEntry index.js
+504 silly gunzTarPerm extractEntry readme.md
+505 silly gunzTarPerm extractEntry readme.md
+506 silly gunzTarPerm extractEntry readme.md
+507 silly gunzTarPerm extractEntry readme.md
+508 info preinstall ansi-styles@1.1.0
+509 silly install resolved []
+510 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+511 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+512 verbose linkStuff [ false,
+512 verbose linkStuff   false,
+512 verbose linkStuff   false,
+512 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules' ]
+513 info linkStuff ansi-styles@1.1.0
+514 verbose linkBins ansi-styles@1.1.0
+515 verbose linkMans ansi-styles@1.1.0
+516 verbose rebuildBundles ansi-styles@1.1.0
+517 info install ansi-styles@1.1.0
+518 info preinstall has-ansi@0.1.0
+519 info preinstall strip-ansi@0.3.0
+520 info postinstall ansi-styles@1.1.0
+521 info preinstall supports-color@0.2.0
+522 silly prepareForInstallMany adding ansi-regex@^0.2.0 from has-ansi dependencies
+523 silly prepareForInstallMany adding ansi-regex@^0.2.1 from strip-ansi dependencies
+524 verbose unlock done using /Users/rafen/.npm/_locks/ansi-styles-8616aba62dce58cf.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/ansi-styles
+525 silly install resolved []
+526 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+527 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+528 verbose linkStuff [ false,
+528 verbose linkStuff   false,
+528 verbose linkStuff   false,
+528 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules' ]
+529 info linkStuff supports-color@0.2.0
+530 verbose linkBins supports-color@0.2.0
+531 verbose link bins [ { 'supports-color': 'cli.js' },
+531 verbose link bins   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/.bin',
+531 verbose link bins   false ]
+532 verbose linkMans supports-color@0.2.0
+533 verbose rebuildBundles supports-color@0.2.0
+534 info preinstall escape-string-regexp@1.0.3
+535 silly cache add args [ 'ansi-regex@^0.2.0', null ]
+536 verbose cache add spec ansi-regex@^0.2.0
+537 silly cache add args [ 'ansi-regex@^0.2.1', null ]
+538 verbose cache add spec ansi-regex@^0.2.1
+539 silly cache add parsed spec { raw: 'ansi-regex@^0.2.0',
+539 silly cache add   scope: null,
+539 silly cache add   name: 'ansi-regex',
+539 silly cache add   rawSpec: '^0.2.0',
+539 silly cache add   spec: '>=0.2.0 <0.3.0',
+539 silly cache add   type: 'range' }
+540 verbose addNamed ansi-regex@>=0.2.0 <0.3.0
+541 silly addNamed semver.valid null
+542 silly addNamed semver.validRange >=0.2.0 <0.3.0
+543 silly addNameRange { name: 'ansi-regex', range: '>=0.2.0 <0.3.0', hasData: false }
+544 silly mapToRegistry name ansi-regex
+545 silly mapToRegistry using default registry
+546 silly mapToRegistry registry https://registry.npmjs.org/
+547 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+548 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex not in flight; fetching
+549 silly cache add parsed spec { raw: 'ansi-regex@^0.2.1',
+549 silly cache add   scope: null,
+549 silly cache add   name: 'ansi-regex',
+549 silly cache add   rawSpec: '^0.2.1',
+549 silly cache add   spec: '>=0.2.1 <0.3.0',
+549 silly cache add   type: 'range' }
+550 verbose addNamed ansi-regex@>=0.2.1 <0.3.0
+551 silly addNamed semver.valid null
+552 silly addNamed semver.validRange >=0.2.1 <0.3.0
+553 silly addNameRange { name: 'ansi-regex', range: '>=0.2.1 <0.3.0', hasData: false }
+554 silly mapToRegistry name ansi-regex
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry https://registry.npmjs.org/
+557 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+558 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex already in flight; waiting
+559 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/.bin/supports-color
+560 silly install resolved []
+561 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+562 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+563 verbose linkStuff [ false,
+563 verbose linkStuff   false,
+563 verbose linkStuff   false,
+563 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules' ]
+564 info linkStuff escape-string-regexp@1.0.3
+565 verbose linkBins escape-string-regexp@1.0.3
+566 verbose linkMans escape-string-regexp@1.0.3
+567 verbose rebuildBundles escape-string-regexp@1.0.3
+568 info install escape-string-regexp@1.0.3
+569 verbose request uri https://registry.npmjs.org/ansi-regex
+570 verbose request no auth needed
+571 info attempt registry request try #1 at 00:12:02
+572 verbose etag "BZIEBJBYINH110I31A3QEZ2SV"
+573 http request GET https://registry.npmjs.org/ansi-regex
+574 info install supports-color@0.2.0
+575 info postinstall escape-string-regexp@1.0.3
+576 info postinstall supports-color@0.2.0
+577 verbose unlock done using /Users/rafen/.npm/_locks/escape-string-regexp-0c52afb98a62807a.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/escape-string-regexp
+578 verbose unlock done using /Users/rafen/.npm/_locks/supports-color-25ce194610f32f33.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/supports-color
+579 http 304 https://registry.npmjs.org/mkdirp
+580 silly get cb [ 304,
+580 silly get   { date: 'Fri, 01 May 2015 03:12:01 GMT',
+580 silly get     via: '1.1 varnish',
+580 silly get     'last-modified': 'Fri, 01 May 2015 03:11:13 GMT',
+580 silly get     'cache-control': 'max-age=60',
+580 silly get     etag: '"7F1U0NKWVWZ0LTDK4GHVKD2OV"',
+580 silly get     age: '50',
+580 silly get     connection: 'keep-alive',
+580 silly get     'x-served-by': 'cache-jfk1024-JFK',
+580 silly get     'x-cache': 'HIT',
+580 silly get     'x-cache-hits': '3',
+580 silly get     'x-timer': 'S1430449921.898025,VS0,VE0',
+580 silly get     vary: 'Accept' } ]
+581 verbose etag https://registry.npmjs.org/mkdirp from cache
+582 verbose get saving mkdirp to /Users/rafen/.npm/registry.npmjs.org/mkdirp/.cache.json
+583 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5 <0.4.0', hasData: true }
+584 silly addNameRange versions [ 'mkdirp',
+584 silly addNameRange   [ '0.0.1',
+584 silly addNameRange     '0.0.2',
+584 silly addNameRange     '0.0.3',
+584 silly addNameRange     '0.0.4',
+584 silly addNameRange     '0.0.5',
+584 silly addNameRange     '0.0.6',
+584 silly addNameRange     '0.0.7',
+584 silly addNameRange     '0.1.0',
+584 silly addNameRange     '0.2.0',
+584 silly addNameRange     '0.2.1',
+584 silly addNameRange     '0.2.2',
+584 silly addNameRange     '0.3.0',
+584 silly addNameRange     '0.3.1',
+584 silly addNameRange     '0.3.2',
+584 silly addNameRange     '0.3.3',
+584 silly addNameRange     '0.3.4',
+584 silly addNameRange     '0.3.5',
+584 silly addNameRange     '0.4.0',
+584 silly addNameRange     '0.4.1',
+584 silly addNameRange     '0.4.2',
+584 silly addNameRange     '0.5.0' ] ]
+585 verbose addNamed mkdirp@0.3.5
+586 silly addNamed semver.valid 0.3.5
+587 silly addNamed semver.validRange 0.3.5
+588 silly cache afterAdd mkdirp@0.3.5
+589 verbose afterAdd /Users/rafen/.npm/mkdirp/0.3.5/package/package.json not in flight; writing
+590 verbose afterAdd /Users/rafen/.npm/mkdirp/0.3.5/package/package.json written
+591 silly install resolved [ { name: 'mkdirp',
+591 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+591 silly install resolved     version: '0.3.5',
+591 silly install resolved     author:
+591 silly install resolved      { name: 'James Halliday',
+591 silly install resolved        email: 'mail@substack.net',
+591 silly install resolved        url: 'http://substack.net' },
+591 silly install resolved     main: './index',
+591 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+591 silly install resolved     repository:
+591 silly install resolved      { type: 'git',
+591 silly install resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+591 silly install resolved     scripts: { test: 'tap test/*.js' },
+591 silly install resolved     devDependencies: { tap: '~0.4.0' },
+591 silly install resolved     license: 'MIT',
+591 silly install resolved     _id: 'mkdirp@0.3.5',
+591 silly install resolved     dist:
+591 silly install resolved      { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+591 silly install resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' },
+591 silly install resolved     _from: 'mkdirp@>=0.3.5 <0.4.0',
+591 silly install resolved     _npmVersion: '1.2.2',
+591 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+591 silly install resolved     maintainers: [ [Object] ],
+591 silly install resolved     directories: {},
+591 silly install resolved     _shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+591 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+591 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+591 silly install resolved     readme: 'ERROR: No README data found!',
+591 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp' } ]
+592 info install mkdirp@0.3.5 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+593 info installOne mkdirp@0.3.5
+594 verbose installOne of mkdirp to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script not in flight; installing
+595 verbose lock using /Users/rafen/.npm/_locks/mkdirp-f858b4aa32e6124e.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+596 silly install write writing mkdirp 0.3.5 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+597 silly cache addNamed cb mkdirp@0.3.5
+598 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+599 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+600 verbose tar unpack /Users/rafen/.npm/mkdirp/0.3.5/package.tgz
+601 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+602 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+603 silly gunzTarPerm modes [ '755', '644' ]
+604 silly gunzTarPerm extractEntry package.json
+605 silly gunzTarPerm extractEntry .npmignore
+606 silly gunzTarPerm extractEntry LICENSE
+607 silly gunzTarPerm extractEntry index.js
+608 silly gunzTarPerm extractEntry examples/pow.js
+609 silly gunzTarPerm extractEntry readme.markdown
+610 silly gunzTarPerm extractEntry test/perm.js
+611 silly gunzTarPerm extractEntry test/perm_sync.js
+612 silly gunzTarPerm extractEntry test/race.js
+613 silly gunzTarPerm extractEntry test/rel.js
+614 silly gunzTarPerm extractEntry test/return.js
+615 silly gunzTarPerm extractEntry test/clobber.js
+616 silly gunzTarPerm extractEntry test/root.js
+617 silly gunzTarPerm extractEntry test/umask.js
+618 silly gunzTarPerm extractEntry test/sync.js
+619 silly gunzTarPerm extractEntry test/chmod.js
+620 silly gunzTarPerm extractEntry test/umask_sync.js
+621 silly gunzTarPerm extractEntry test/return_sync.js
+622 silly gunzTarPerm extractEntry test/mkdirp.js
+623 silly gunzTarPerm extractEntry .travis.yml
+624 info preinstall mkdirp@0.3.5
+625 silly install resolved []
+626 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+627 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+628 verbose linkStuff [ false,
+628 verbose linkStuff   false,
+628 verbose linkStuff   false,
+628 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules' ]
+629 info linkStuff mkdirp@0.3.5
+630 verbose linkBins mkdirp@0.3.5
+631 verbose linkMans mkdirp@0.3.5
+632 verbose rebuildBundles mkdirp@0.3.5
+633 info install mkdirp@0.3.5
+634 info postinstall mkdirp@0.3.5
+635 verbose unlock done using /Users/rafen/.npm/_locks/mkdirp-f858b4aa32e6124e.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script/node_modules/mkdirp
+636 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+637 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+638 verbose linkStuff [ false,
+638 verbose linkStuff   false,
+638 verbose linkStuff   false,
+638 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules' ]
+639 info linkStuff coffee-script@1.7.1
+640 verbose linkBins coffee-script@1.7.1
+641 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+641 verbose link bins   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/.bin',
+641 verbose link bins   false ]
+642 verbose linkMans coffee-script@1.7.1
+643 verbose rebuildBundles coffee-script@1.7.1
+644 verbose rebuildBundles [ 'mkdirp' ]
+645 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/.bin/coffee
+646 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/.bin/cake
+647 info install coffee-script@1.7.1
+648 info postinstall coffee-script@1.7.1
+649 verbose unlock done using /Users/rafen/.npm/_locks/coffee-script-2f754881557a83d4.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/coffee-script
+650 http 304 https://registry.npmjs.org/ansi-regex
+651 silly get cb [ 304,
+651 silly get   { date: 'Fri, 01 May 2015 03:12:02 GMT',
+651 silly get     via: '1.1 varnish',
+651 silly get     'cache-control': 'max-age=60',
+651 silly get     etag: '"BZIEBJBYINH110I31A3QEZ2SV"',
+651 silly get     age: '33',
+651 silly get     connection: 'keep-alive',
+651 silly get     'x-served-by': 'cache-jfk1023-JFK',
+651 silly get     'x-cache': 'HIT',
+651 silly get     'x-cache-hits': '2',
+651 silly get     'x-timer': 'S1430449922.845492,VS0,VE0',
+651 silly get     vary: 'Accept' } ]
+652 verbose etag https://registry.npmjs.org/ansi-regex from cache
+653 verbose get saving ansi-regex to /Users/rafen/.npm/registry.npmjs.org/ansi-regex/.cache.json
+654 silly addNameRange number 2 { name: 'ansi-regex', range: '>=0.2.0 <0.3.0', hasData: true }
+655 silly addNameRange versions [ 'ansi-regex',
+655 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1' ] ]
+656 verbose addNamed ansi-regex@0.2.1
+657 silly addNamed semver.valid 0.2.1
+658 silly addNamed semver.validRange 0.2.1
+659 silly addNameRange number 2 { name: 'ansi-regex', range: '>=0.2.1 <0.3.0', hasData: true }
+660 silly addNameRange versions [ 'ansi-regex',
+660 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1' ] ]
+661 verbose addNamed ansi-regex@0.2.1
+662 silly addNamed semver.valid 0.2.1
+663 silly addNamed semver.validRange 0.2.1
+664 silly cache afterAdd ansi-regex@0.2.1
+665 verbose afterAdd /Users/rafen/.npm/ansi-regex/0.2.1/package/package.json not in flight; writing
+666 silly cache afterAdd ansi-regex@0.2.1
+667 verbose afterAdd /Users/rafen/.npm/ansi-regex/0.2.1/package/package.json already in flight; not writing
+668 verbose afterAdd /Users/rafen/.npm/ansi-regex/0.2.1/package/package.json written
+669 silly install resolved [ { name: 'ansi-regex',
+669 silly install resolved     version: '0.2.1',
+669 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+669 silly install resolved     license: 'MIT',
+669 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/ansi-regex' },
+669 silly install resolved     author:
+669 silly install resolved      { name: 'Sindre Sorhus',
+669 silly install resolved        email: 'sindresorhus@gmail.com',
+669 silly install resolved        url: 'http://sindresorhus.com' },
+669 silly install resolved     engines: { node: '>=0.10.0' },
+669 silly install resolved     scripts: { test: 'mocha' },
+669 silly install resolved     files: [ 'index.js' ],
+669 silly install resolved     keywords:
+669 silly install resolved      [ 'ansi',
+669 silly install resolved        'styles',
+669 silly install resolved        'color',
+669 silly install resolved        'colour',
+669 silly install resolved        'colors',
+669 silly install resolved        'terminal',
+669 silly install resolved        'console',
+669 silly install resolved        'cli',
+669 silly install resolved        'string',
+669 silly install resolved        'tty',
+669 silly install resolved        'escape',
+669 silly install resolved        'formatting',
+669 silly install resolved        'rgb',
+669 silly install resolved        '256',
+669 silly install resolved        'shell',
+669 silly install resolved        'xterm',
+669 silly install resolved        'command-line',
+669 silly install resolved        'text',
+669 silly install resolved        'regex',
+669 silly install resolved        'regexp',
+669 silly install resolved        're',
+669 silly install resolved        'match',
+669 silly install resolved        'test',
+669 silly install resolved        'find',
+669 silly install resolved        'pattern' ],
+669 silly install resolved     devDependencies: { mocha: '*' },
+669 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+669 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+669 silly install resolved     _id: 'ansi-regex@0.2.1',
+669 silly install resolved     _shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+669 silly install resolved     _from: 'ansi-regex@>=0.2.1 <0.3.0',
+669 silly install resolved     _npmVersion: '1.4.9',
+669 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+669 silly install resolved     maintainers: [ [Object] ],
+669 silly install resolved     dist:
+669 silly install resolved      { shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+669 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz' },
+669 silly install resolved     directories: {},
+669 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz',
+669 silly install resolved     readme: 'ERROR: No README data found!' } ]
+670 info install ansi-regex@0.2.1 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+671 info installOne ansi-regex@0.2.1
+672 verbose installOne of ansi-regex to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi not in flight; installing
+673 silly install resolved [ { name: 'ansi-regex',
+673 silly install resolved     version: '0.2.1',
+673 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+673 silly install resolved     license: 'MIT',
+673 silly install resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/ansi-regex' },
+673 silly install resolved     author:
+673 silly install resolved      { name: 'Sindre Sorhus',
+673 silly install resolved        email: 'sindresorhus@gmail.com',
+673 silly install resolved        url: 'http://sindresorhus.com' },
+673 silly install resolved     engines: { node: '>=0.10.0' },
+673 silly install resolved     scripts: { test: 'mocha' },
+673 silly install resolved     files: [ 'index.js' ],
+673 silly install resolved     keywords:
+673 silly install resolved      [ 'ansi',
+673 silly install resolved        'styles',
+673 silly install resolved        'color',
+673 silly install resolved        'colour',
+673 silly install resolved        'colors',
+673 silly install resolved        'terminal',
+673 silly install resolved        'console',
+673 silly install resolved        'cli',
+673 silly install resolved        'string',
+673 silly install resolved        'tty',
+673 silly install resolved        'escape',
+673 silly install resolved        'formatting',
+673 silly install resolved        'rgb',
+673 silly install resolved        '256',
+673 silly install resolved        'shell',
+673 silly install resolved        'xterm',
+673 silly install resolved        'command-line',
+673 silly install resolved        'text',
+673 silly install resolved        'regex',
+673 silly install resolved        'regexp',
+673 silly install resolved        're',
+673 silly install resolved        'match',
+673 silly install resolved        'test',
+673 silly install resolved        'find',
+673 silly install resolved        'pattern' ],
+673 silly install resolved     devDependencies: { mocha: '*' },
+673 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+673 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+673 silly install resolved     _id: 'ansi-regex@0.2.1',
+673 silly install resolved     _shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+673 silly install resolved     _from: 'ansi-regex@>=0.2.1 <0.3.0',
+673 silly install resolved     _npmVersion: '1.4.9',
+673 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+673 silly install resolved     maintainers: [ [Object] ],
+673 silly install resolved     dist:
+673 silly install resolved      { shasum: '0d8e946967a3d8143f93e24e298525fc1b2235f9',
+673 silly install resolved        tarball: 'http://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz' },
+673 silly install resolved     directories: {},
+673 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz',
+673 silly install resolved     readme: 'ERROR: No README data found!' } ]
+674 info install ansi-regex@0.2.1 into /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+675 info installOne ansi-regex@0.2.1
+676 verbose installOne of ansi-regex to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi not in flight; installing
+677 verbose lock using /Users/rafen/.npm/_locks/ansi-regex-95728d3153c0ad06.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+678 silly install write writing ansi-regex 0.2.1 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+679 silly cache addNamed cb ansi-regex@0.2.1
+680 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+681 verbose lock using /Users/rafen/.npm/_locks/ansi-regex-fea2e9c34b6168a7.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+682 silly install write writing ansi-regex 0.2.1 to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+683 silly cache addNamed cb ansi-regex@0.2.1
+684 verbose unbuild node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+685 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+686 verbose tar unpack /Users/rafen/.npm/ansi-regex/0.2.1/package.tgz
+687 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+688 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+689 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+690 silly gunzTarPerm modes [ '755', '644' ]
+691 verbose tar unpack /Users/rafen/.npm/ansi-regex/0.2.1/package.tgz
+692 verbose tar unpacking to /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+693 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+694 silly gunzTarPerm modes [ '755', '644' ]
+695 silly gunzTarPerm extractEntry package.json
+696 silly gunzTarPerm extractEntry package.json
+697 silly gunzTarPerm extractEntry index.js
+698 silly gunzTarPerm extractEntry readme.md
+699 silly gunzTarPerm extractEntry index.js
+700 silly gunzTarPerm extractEntry readme.md
+701 info preinstall ansi-regex@0.2.1
+702 info preinstall ansi-regex@0.2.1
+703 silly install resolved []
+704 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+705 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+706 verbose linkStuff [ false,
+706 verbose linkStuff   false,
+706 verbose linkStuff   false,
+706 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules' ]
+707 info linkStuff ansi-regex@0.2.1
+708 verbose linkBins ansi-regex@0.2.1
+709 verbose linkMans ansi-regex@0.2.1
+710 verbose rebuildBundles ansi-regex@0.2.1
+711 silly install resolved []
+712 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+713 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+714 verbose linkStuff [ false,
+714 verbose linkStuff   false,
+714 verbose linkStuff   false,
+714 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules' ]
+715 info linkStuff ansi-regex@0.2.1
+716 verbose linkBins ansi-regex@0.2.1
+717 verbose linkMans ansi-regex@0.2.1
+718 verbose rebuildBundles ansi-regex@0.2.1
+719 info install ansi-regex@0.2.1
+720 info install ansi-regex@0.2.1
+721 info postinstall ansi-regex@0.2.1
+722 info postinstall ansi-regex@0.2.1
+723 verbose unlock done using /Users/rafen/.npm/_locks/ansi-regex-95728d3153c0ad06.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+724 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+725 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+726 verbose linkStuff [ false,
+726 verbose linkStuff   false,
+726 verbose linkStuff   false,
+726 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules' ]
+727 info linkStuff strip-ansi@0.3.0
+728 verbose linkBins strip-ansi@0.3.0
+729 verbose link bins [ { 'strip-ansi': 'cli.js' },
+729 verbose link bins   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/.bin',
+729 verbose link bins   false ]
+730 verbose linkMans strip-ansi@0.3.0
+731 verbose rebuildBundles strip-ansi@0.3.0
+732 verbose unlock done using /Users/rafen/.npm/_locks/ansi-regex-fea2e9c34b6168a7.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+733 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+734 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+735 verbose linkStuff [ false,
+735 verbose linkStuff   false,
+735 verbose linkStuff   false,
+735 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules' ]
+736 info linkStuff has-ansi@0.1.0
+737 verbose linkBins has-ansi@0.1.0
+738 verbose link bins [ { 'has-ansi': 'cli.js' },
+738 verbose link bins   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/.bin',
+738 verbose link bins   false ]
+739 verbose linkMans has-ansi@0.1.0
+740 verbose rebuildBundles has-ansi@0.1.0
+741 verbose rebuildBundles [ 'ansi-regex' ]
+742 verbose rebuildBundles [ 'ansi-regex' ]
+743 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/.bin/strip-ansi
+744 verbose gentlyRm vacuuming /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/.bin/has-ansi
+745 info install strip-ansi@0.3.0
+746 info install has-ansi@0.1.0
+747 info postinstall strip-ansi@0.3.0
+748 info postinstall has-ansi@0.1.0
+749 verbose unlock done using /Users/rafen/.npm/_locks/strip-ansi-24a5939954761e84.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/strip-ansi
+750 verbose unlock done using /Users/rafen/.npm/_locks/has-ansi-c369f6ed264e3d13.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk/node_modules/has-ansi
+751 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+752 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+753 verbose linkStuff [ false,
+753 verbose linkStuff   false,
+753 verbose linkStuff   false,
+753 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules' ]
+754 info linkStuff chalk@0.5.1
+755 verbose linkBins chalk@0.5.1
+756 verbose linkMans chalk@0.5.1
+757 verbose rebuildBundles chalk@0.5.1
+758 verbose rebuildBundles [ '.bin',
+758 verbose rebuildBundles   'ansi-styles',
+758 verbose rebuildBundles   'escape-string-regexp',
+758 verbose rebuildBundles   'has-ansi',
+758 verbose rebuildBundles   'strip-ansi',
+758 verbose rebuildBundles   'supports-color' ]
+759 info install chalk@0.5.1
+760 info postinstall chalk@0.5.1
+761 verbose unlock done using /Users/rafen/.npm/_locks/chalk-e03af084c788d10e.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee/node_modules/chalk
+762 verbose about to build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+763 info build /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+764 verbose linkStuff [ false,
+764 verbose linkStuff   false,
+764 verbose linkStuff   false,
+764 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules' ]
+765 info linkStuff grunt-contrib-coffee@0.11.1
+766 verbose linkBins grunt-contrib-coffee@0.11.1
+767 verbose linkMans grunt-contrib-coffee@0.11.1
+768 verbose rebuildBundles grunt-contrib-coffee@0.11.1
+769 verbose rebuildBundles [ '.bin', 'chalk', 'coffee-script', 'lodash' ]
+770 info install grunt-contrib-coffee@0.11.1
+771 info postinstall grunt-contrib-coffee@0.11.1
+772 verbose unlock done using /Users/rafen/.npm/_locks/grunt-contrib-coffee-9ab7f4c8fd2b3e9f.lock for /Users/rafen/projects/sandbox-elections/node_modules/grunt-contrib-coffee
+773 info build /Users/rafen/projects/sandbox-elections
+774 verbose linkStuff [ false, false, false, '/Users/rafen/projects' ]
+775 info linkStuff elections@
+776 verbose linkBins elections@
+777 verbose linkMans elections@
+778 verbose rebuildBundles elections@
+779 verbose rebuildBundles [ 'apache-server-configs',
+779 verbose rebuildBundles   'grunt',
+779 verbose rebuildBundles   'grunt-autoprefixer',
+779 verbose rebuildBundles   'grunt-concurrent',
+779 verbose rebuildBundles   'grunt-contrib-clean',
+779 verbose rebuildBundles   'grunt-contrib-coffee',
+779 verbose rebuildBundles   'grunt-contrib-concat',
+779 verbose rebuildBundles   'grunt-contrib-connect',
+779 verbose rebuildBundles   'grunt-contrib-copy',
+779 verbose rebuildBundles   'grunt-contrib-cssmin',
+779 verbose rebuildBundles   'grunt-contrib-htmlmin',
+779 verbose rebuildBundles   'grunt-contrib-imagemin',
+779 verbose rebuildBundles   'grunt-contrib-jshint',
+779 verbose rebuildBundles   'grunt-contrib-uglify',
+779 verbose rebuildBundles   'grunt-contrib-watch',
+779 verbose rebuildBundles   'grunt-mocha',
+779 verbose rebuildBundles   'grunt-newer',
+779 verbose rebuildBundles   'grunt-rev',
+779 verbose rebuildBundles   'grunt-sass',
+779 verbose rebuildBundles   'grunt-svgmin',
+779 verbose rebuildBundles   'grunt-usemin',
+779 verbose rebuildBundles   'grunt-wiredep',
+779 verbose rebuildBundles   'jshint-stylish',
+779 verbose rebuildBundles   'load-grunt-tasks',
+779 verbose rebuildBundles   'openlayers',
+779 verbose rebuildBundles   'time-grunt' ]
+780 verbose rebuild bundle /Users/rafen/projects/sandbox-elections/node_modules/openlayers
+781 info build /Users/rafen/projects/sandbox-elections/node_modules/openlayers
+782 info preinstall openlayers@3.4.0
+783 verbose linkStuff [ false,
+783 verbose linkStuff   false,
+783 verbose linkStuff   false,
+783 verbose linkStuff   '/Users/rafen/projects/sandbox-elections/node_modules' ]
+784 info linkStuff openlayers@3.4.0
+785 verbose linkBins openlayers@3.4.0
+786 verbose linkMans openlayers@3.4.0
+787 verbose rebuildBundles openlayers@3.4.0
+788 verbose rebuildBundles [ '.bin',
+788 verbose rebuildBundles   'async',
+788 verbose rebuildBundles   'closure-util',
+788 verbose rebuildBundles   'fs-extra',
+788 verbose rebuildBundles   'graceful-fs',
+788 verbose rebuildBundles   'htmlparser2',
+788 verbose rebuildBundles   'jsdoc',
+788 verbose rebuildBundles   'nomnom',
+788 verbose rebuildBundles   'rbush',
+788 verbose rebuildBundles   'temp',
+788 verbose rebuildBundles   'walk' ]
+789 info install openlayers@3.4.0
+790 verbose unsafe-perm in lifecycle true
+791 info postinstall openlayers@3.4.0
+792 verbose unsafe-perm in lifecycle true
+793 info openlayers@3.4.0 Failed to exec postinstall script
+794 verbose stack Error: openlayers@3.4.0 postinstall: `closure-util update`
+794 verbose stack Exit status 127
+794 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+794 verbose stack     at EventEmitter.emit (events.js:98:17)
+794 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+794 verbose stack     at ChildProcess.emit (events.js:98:17)
+794 verbose stack     at maybeClose (child_process.js:756:16)
+794 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+795 verbose pkgid openlayers@3.4.0
+796 verbose cwd /Users/rafen/projects/sandbox-elections/test
+797 error Darwin 14.1.0
+798 error argv "node" "/usr/local/bin/npm" "install"
+799 error node v0.10.33
+800 error npm  v2.5.0
+801 error code ELIFECYCLE
+802 error openlayers@3.4.0 postinstall: `closure-util update`
+802 error Exit status 127
+803 error Failed at the openlayers@3.4.0 postinstall script 'closure-util update'.
+803 error This is most likely a problem with the openlayers package,
+803 error not with npm itself.
+803 error Tell the author that this fails on your system:
+803 error     closure-util update
+803 error You can get their info via:
+803 error     npm owner ls openlayers
+803 error There is likely additional logging output above.
+804 verbose exit [ 1, true ]
