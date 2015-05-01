@@ -351,6 +351,12 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>/.htaccess'
         }, {
           expand: true,
+          cwd: '<%= config.app %>',
+          flatten: true,
+          src: 'kml/*.kml',
+          dest: '<%= config.dist %>/kml'
+        }, {
+          expand: true,
           dot: true,
           cwd: '.',
           src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
@@ -443,7 +449,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
+    // 'test',
     'build'
   ]);
 };

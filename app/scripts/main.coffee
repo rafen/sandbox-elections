@@ -5,6 +5,8 @@ class Elections
         google.load 'visualization', '1.0', 'packages': ['corechart']
         # Load Map
         google.maps.event.addDomListener window, 'load', @.initialize
+        # static files
+        @.baseURL = 'http://rafen.webfactional.com/elections2015/kml/'
 
     initialize: =>
         @.loadMap()
@@ -28,12 +30,12 @@ class Elections
         @.states =
             buenosAires:
                 name: 'Buenos Aires'
-                kmlURL: 'https://dl.dropboxusercontent.com/u/14133267/Elecciones2015/BuenosAires.kml'
+                kmlURL: 'BuenosAires.kml'
                 values: [['PRO', 47.3], ['ECO', 22.3], ['FPV', 18.7], ['IZQ', 2.3], ['Otros', 9.4]]
                 colors: ['#FEDB04', '#7CC374', '#1796D7', '#FFAD5C', '#E0EBEB']
             neuquen:
                 name: 'Neuquen'
-                kmlURL: 'https://dl.dropboxusercontent.com/u/14133267/Elecciones2015/Neuquen.kml'
+                kmlURL: 'Neuquen.kml'
                 values: [['MPN', 37.86], ['FPV', 28.87], ['PRO', 19.45], ['Otros', 33.3]]
                 colors: ['#7CC374', '#1796D7', '#FEDB04', '#E0EBEB']
 
@@ -43,7 +45,7 @@ class Elections
 
     renderState: (state, values) ->
         @.states[state].kml = new google.maps.KmlLayer
-            url: values.kmlURL + '?' + Math.random()
+            url: @.baseURL + values.kmlURL + '?' + Math.random()
             preserveViewport: true
         @.states[state].kml.setMap @.map
 
