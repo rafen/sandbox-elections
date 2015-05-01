@@ -69,7 +69,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    // max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
@@ -91,8 +91,7 @@ body {
   }
 }
 
-
-.map {
+#map {
   width: 100%;
-  height: 700px;
+  min-height: 500px;
 }
