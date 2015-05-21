@@ -29,8 +29,8 @@ class Elections
     loadStates: ->
         @.states =
             buenosAires:
-                name: 'Buenos Aires'
-                kmlURL: 'BuenosAires.kml'
+                name: 'Ciudad Autonoma de Buenos Aires'
+                kmlURL: 'caba.kml'
                 values: [['PRO', 47.3], ['ECO', 22.3], ['FPV', 18.7], ['IZQ', 2.3], ['Otros', 9.4]]
                 colors: ['#FEDB04', '#7CC374', '#1796D7', '#FFAD5C', '#E0EBEB']
             neuquen:
